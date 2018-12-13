@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="PMIS_Choice_Test" language="en" table="x_299041_pmis_test_pmis_choice_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>PMIS_Choice_Test</label>
+            <language>en</language>
+            <name>x_299041_pmis_test_pmis_choice_test</name>
+            <plural>PMIS_Choice_Tests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-13 19:17:34</sys_created_on>
+            <sys_id>3448ce26db526300306dab7dca96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PMIS_Choice_Test</sys_name>
+            <sys_package display_value="PMIS Test" source="x_299041_pmis_test">a44cbc1edb162300306dab7dca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMIS Test">a44cbc1edb162300306dab7dca96192a</sys_scope>
+            <sys_update_name>sys_documentation_x_299041_pmis_test_pmis_choice_test__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-13 19:17:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
