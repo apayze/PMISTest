@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="division" table="x_299041_pmis_test_base">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="division" table="x_299041_pmis_test_pmis_choice_list">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -32,15 +32,15 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_299041_pmis_test_base</name>
+        <max_length>30</max_length>
+        <name>x_299041_pmis_test_pmis_choice_list</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_299041_pmis_test_project_details_division">x_299041_pmis_test_project_details_division</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-12 19:24:36</sys_created_on>
-        <sys_id>95100152db562300306dab7dca961990</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2018-12-14 13:21:52</sys_created_on>
+        <sys_id>3f50c276db122300306dab7dca961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Division</sys_name>
         <sys_package display_value="PMIS Test" source="x_299041_pmis_test">a44cbc1edb162300306dab7dca96192a</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS Test">a44cbc1edb162300306dab7dca96192a</sys_scope>
-        <sys_update_name>sys_dictionary_x_299041_pmis_test_base_division</sys_update_name>
+        <sys_update_name>sys_dictionary_x_299041_pmis_test_pmis_choice_list_division</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:15:15</sys_updated_on>
+        <sys_updated_on>2018-12-14 13:21:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

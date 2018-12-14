@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="PMIS_D_Import" max_length="40" name="x_299041_pmis_test_pmis_d_import" type="collection">
+        <element attributes="import_attribute_name=Division,edge_encryption_enabled=true" label="Division" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=Order,edge_encryption_enabled=true" label="Order" max_length="40" name="u_order" type="string"/>
+    </element>
+</database>

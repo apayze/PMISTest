@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Base" max_length="40" name="x_299041_pmis_test_base" type="collection">
-        <element label="Branch" max_length="40" name="branch" reference="x_299041_pmis_test_pmis_choice_list" reference_qual=" javascript:'parent='+current.division.getDisplayValue()" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
-        <element label="Division" max_length="32" name="division" reference="x_299041_pmis_test_pmis_choice_list" reference_qual="group=division^EQ" reference_qual_condition="group=division^EQ" type="reference"/>
+        <element label="Branch" max_length="40" name="branch" reference="x_299041_pmis_test_project_details_branch" reference_qual="javascript:'parent='+current.division.getDisplayValue()" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element label="Division" max_length="32" name="division" reference="x_299041_pmis_test_project_details_division" type="reference"/>
+        <element label="Section" max_length="32" name="section" reference="x_299041_pmis_test_project_details_section" reference_qual="javascript:'parent='+current.branch.getDisplayValue()" type="reference" use_reference_qualifier="advanced"/>
         <element label="test" max_length="40" name="test" type="string"/>
         <index name="index">
             <element name="division"/>
+        </index>
+        <index name="index2">
+            <element name="section"/>
         </index>
     </element>
 </database>
