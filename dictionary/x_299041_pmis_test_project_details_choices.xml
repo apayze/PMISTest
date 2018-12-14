@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project Details Choices" max_length="40" name="x_299041_pmis_test_project_details_choices" type="collection">
+        <element label="Group" max_length="30" name="group" type="string"/>
+        <element label="Label" max_length="30" name="label" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Parent" max_length="30" name="parent" type="string"/>
+        <element display="true" label="Value" max_length="30" name="value" type="string"/>
+    </element>
+</database>

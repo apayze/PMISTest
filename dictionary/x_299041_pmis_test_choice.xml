@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Choice" max_length="40" name="x_299041_pmis_test_choice" type="collection">
-        <element label="Dependant value" max_length="40" name="dependant_value" type="string"/>
-        <element label="Label" max_length="40" name="label" type="string"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
-    </element>
-</database>

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="branch" table="x_299041_pmis_test_base">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_order" table="x_299041_pmis_test_pmis_details_choices_import">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>import_attribute_name=Order,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Branch</column_label>
+        <column_label>Order</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,24 +22,24 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>branch</element>
+        <element>u_order</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_299041_pmis_test_base</name>
+        <name>x_299041_pmis_test_pmis_details_choices_import</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_299041_pmis_test_project_details_choices">x_299041_pmis_test_project_details_choices</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>javascript:'parent='+current.division.getDisplayValue()</reference_qual>
+        <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -52,22 +47,22 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-13 11:43:27</sys_created_on>
-        <sys_id>19306ce2db5e2300306dab7dca9619eb</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Branch</sys_name>
+        <sys_created_on>2018-12-14 16:08:09</sys_created_on>
+        <sys_id>a376aa32db922300306dab7dca961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order</sys_name>
         <sys_package display_value="PMIS Test" source="x_299041_pmis_test">a44cbc1edb162300306dab7dca96192a</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS Test">a44cbc1edb162300306dab7dca96192a</sys_scope>
-        <sys_update_name>sys_dictionary_x_299041_pmis_test_base_branch</sys_update_name>
+        <sys_update_name>sys_dictionary_x_299041_pmis_test_pmis_details_choices_import_u_order</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 16:09:55</sys_updated_on>
+        <sys_updated_on>2018-12-14 16:08:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>
